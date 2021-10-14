@@ -145,17 +145,19 @@ p {
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
-    height: 100%;
+    width: 18%;
+    height: 115%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 32px;
     color: #ffffff;
     line-height: 1.5;
+    position: relative;
+    right: 40px;
 }
 .benefits div {
-padding-bottom: 30px;
-padding-top: 5px;
+padding-bottom: 45px;
+
 }
 .benefits h3 {
     margin-bottom: 10px;
