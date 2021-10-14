@@ -9,6 +9,10 @@
 body {
     background-color: #d9dcd6;
 }
+
+p {
+    font-size: 18px;
+}
 /* universal styles end */
 
 /* header begin */
@@ -19,10 +23,6 @@ header {
     color: #ffffff;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -30,6 +30,11 @@ header h1 {
 
 header h1 .seo {
     color: #d9dcd6;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 header div {
@@ -62,20 +67,6 @@ header div ul li {
 /* hero end */
 
 /* main body begin */
-p {
-    font-size: 16px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
@@ -91,13 +82,23 @@ p {
     color: #ffffff;
 }
 
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .content img {
     max-height: 200px;
 }
 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 /* main body end */
 
@@ -120,10 +121,6 @@ p {
 
 .benefits div {
 padding-bottom: 45px;
-}
-
-.benefits p {
-    font-size: 18px;
 }
 
 .benefits h3 {
